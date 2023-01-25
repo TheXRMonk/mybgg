@@ -1,18 +1,19 @@
 {
     "project": {
-        "name": "mybgg",
-        "title": ""
+        "name": "Munkens Planke Spil",
+        "title": "Munkens Planke Spil"
     },
     "boardgamegeek": {
-        "user_name": "YOUR_BGG_USERNAME",
+        "user_name": "TheMunk",
         "extra_params": {
             "own": 1
         }
     },
     "algolia": {
-        "app_id": "YOUR_APP_ID",
-        "api_key_search_only": "YOUR_PUBLIC_API_KEY",
-        "index_name": "YOUR_INDEX_NAME",
-        "hits_per_page": 24
+        "app_id": "8HNSYWC3CD",
+        "api_key_search_only": "b2191209dd9464ad84869b7731028e65",
+        "index_name": "MyBoardGames",
+        "hits_per_page": 48,
+		"sort_by": "asc(name)"
     }
 }
